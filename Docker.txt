@@ -1,0 +1,33 @@
+docker run hello-world
+
+docker pull redis
+
+docker pull mongo
+
+docker run -d redis
+
+docker ps
+
+docker ps -a
+
+docker start {any id}
+
+docker ps
+
+docker stop {any id}
+
+docker images
+
+docker ps -a
+
+docker ps -l
+
+docker search nodejs
+
+docker network
+
+docker network create -d bridge my-bridge-network
+
+docker run -d -p 9000:6379 redis
+
+go to port 6379;
