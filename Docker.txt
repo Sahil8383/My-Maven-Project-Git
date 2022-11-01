@@ -37,7 +37,7 @@ go to port 6379;
 
 
 docker build -t staticapp .
-
+$ docker run -d -p 80:80 staticapp .
 
 FROM nginx:alpine
 COPY . /usr/share/nginx/html
