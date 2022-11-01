@@ -31,3 +31,10 @@ docker network create -d bridge my-bridge-network
 docker run -d -p 9000:6379 redis
 
 go to port 6379;
+
+
+
+
+
+docker build -t staticapp .
+
